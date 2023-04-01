@@ -39,9 +39,13 @@
 @media screen and (min-width: 1024px) {
     .paginacion {
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 4;
     }
 }
 
 @media screen and (min-width: 1440px) {
+    .paginacion {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
 }

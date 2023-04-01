@@ -43,7 +43,6 @@ html {
 }
 
 .tarjetas-elemento {
-    width: 100%;
     background-color: var(--letra);
 }
 
@@ -102,10 +101,12 @@ html {
 
 @media screen and (min-width: 1024px) {
     .tarjetas {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media screen and (min-width: 1440px) {
-
+    .tarjetas {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
