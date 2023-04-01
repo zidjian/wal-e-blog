@@ -1,0 +1,18 @@
+.icon {
+    width: 2.5rem;
+}
+
+.icon_mini {
+    width: 1.2rem;
+}
+
+.icon_circular {
+    display: block;
+    padding: .5rem;
+    border: solid 1px var(--letra);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
