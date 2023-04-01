@@ -29,8 +29,19 @@
 
 @media screen and (min-width: 768px) {
     .paginacion {
-        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 3;
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    .paginacion {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+}
+
+@media screen and (min-width: 1440px) {
 }

@@ -37,8 +37,8 @@ html {
 }
 
 .tarjetas {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
 }
 
@@ -95,27 +95,17 @@ html {
 
 
 @media screen and (min-width: 768px) {
-
     .tarjetas {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .tarjetas-elemento {
-        width: 48%;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (min-width: 1024px) {
-
-    .tarjetas-elemento {
-        width: 32%;
+    .tarjetas {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media screen and (min-width: 1440px) {
 
-    .tarjetas-elemento {
-        width: 23%;
-    }
 }
